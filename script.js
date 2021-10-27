@@ -11,11 +11,11 @@ var hasil = '';
 if( player == computer ) {
     hasil='menjawab sama dengan computer dan hasilnya seri';
 } else if (player === 'gunting') {
-    hasil=(computer == 'kertas') ? 'sangat hebat dan jawaban anda benar' : 'Anda nub sekali';
+    hasil=(computer == 'kertas') ? 'sangat hebat dan jawaban anda benar' : 'nub sekali';
 } else if (player === 'batu') {
-    hasil=(computer == 'gunting') ? 'sangat hebat dan jawaban anda benar' : 'Anda nub sekali';
+    hasil=(computer == 'gunting') ? 'sangat hebat dan jawaban anda benar' : 'nub sekali';
 } else if (player === 'kertas') {
-    hasil=(computer == 'batu') ? 'sangat hebat dan jawaban anda benar' : 'Anda nub sekali'; 
+    hasil=(computer == 'batu') ? 'sangat hebat dan jawaban anda benar' : 'nub sekali'; 
 } else {
     hasil='anda salah masukin hahahaha';
 }
