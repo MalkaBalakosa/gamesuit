@@ -17,7 +17,7 @@ if( player == computer ) {
 } else if (player === 'kertas') {
     hasil=(computer == 'batu') ? 'sangat hebat dan jawaban anda benar' : 'nub sekali'; 
 } else {
-    hasil='anda salah masukin hahahaha';
+    hasil='anda salah memasukan';
 }
 
 alert('Kamu memilih ' + player + ' dan komputer memilih ' + computer  + ' \nkamu ' + hasil );
